@@ -61,12 +61,29 @@
 
         private void BasicSolution(int[,] arr, int n)
         {
-            int[,] newArr;
+            int[,] newArr = new int[n, n];
             for (int row = 0; row < n; row++)
             {
                 for (int col = n - 1; col >= 0; col--)
-                    Console.WriteLine(arr[col, row] + " ");
-                Console.WriteLine();
+                {
+                    var temp = arr[row, col];
+                    newArr[col, (n - row - 1)] = temp;
+                }
+            }
+            print(newArr);
+        }
+
+        private void print(int[,] arr)
+        {
+            {
+                int n = arr.GetLength(0);
+                for (int i = 0; i < n; i++)
+                {
+                    for (int j = 0; j < n; j++)
+                        Console.Write(arr[i, j] + " ");
+
+                    Console.WriteLine();
+                }
             }
         }
         #endregion
