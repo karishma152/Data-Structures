@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DSAPractice;
+using DSAPractice.LeetCode.ArraysString;
 
 Console.WriteLine("Data Structures Practice");
 
@@ -12,3 +13,7 @@ obj.PrintingPattern1();
 
 Console.WriteLine("Pattern 2");
 obj.PrintingPattern2();
+
+Console.WriteLine("Merge two string Alternatively");
+MergeStringsAlternatively mergeStringsAlternatively = new MergeStringsAlternatively();
+mergeStringsAlternatively.MergeAlternately();
