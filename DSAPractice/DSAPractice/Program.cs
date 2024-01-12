@@ -17,3 +17,7 @@ obj.PrintingPattern2();
 Console.WriteLine("Merge two string Alternatively");
 MergeStringsAlternatively mergeStringsAlternatively = new MergeStringsAlternatively();
 mergeStringsAlternatively.MergeAlternately();
+
+Console.WriteLine("GCD of Two Strings - Optimised");
+GCDofTwoStrings gCDofTwoStrings = new GCDofTwoStrings();
+gCDofTwoStrings.GCDofTwoStringsOptimised();

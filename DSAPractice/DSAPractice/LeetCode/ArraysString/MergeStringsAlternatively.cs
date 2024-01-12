@@ -2,6 +2,8 @@
 {
     public class MergeStringsAlternatively
     {
+        #region Public Methods
+
         public string MergeAlternately()
         {
             string word1 = Console.ReadLine();
@@ -33,5 +35,7 @@
             Console.WriteLine(result);
             return result;
         }
+
+        #endregion
     }
 }

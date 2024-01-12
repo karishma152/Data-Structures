@@ -2,15 +2,6 @@
 {
     public class Patterns
     {
-        #region Constructor
-
-        public Patterns()
-        {
-
-        }
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>
