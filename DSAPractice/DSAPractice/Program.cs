@@ -21,3 +21,6 @@ mergeStringsAlternatively.MergeAlternately();
 Console.WriteLine("GCD of Two Strings - Optimised");
 GCDofTwoStrings gCDofTwoStrings = new GCDofTwoStrings();
 gCDofTwoStrings.GCDofTwoStringsOptimised();
+
+Console.WriteLine("GCD of Two Strings - Brute Force");
+gCDofTwoStrings.GCDofTwoStringsBruteForce();
