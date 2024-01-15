@@ -28,3 +28,8 @@ gCDofTwoStrings.GCDofTwoStringsBruteForce();
 Console.WriteLine("Kid with Candies");
 KidWithCandies kidWithCandies = new KidWithCandies();
 kidWithCandies.KidsWithCandies();
+
+
+Console.WriteLine("Can Place Flowers");
+CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
+canPlaceFlowers.CanPlaceFlowersOutput();
