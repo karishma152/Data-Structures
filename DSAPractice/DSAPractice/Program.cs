@@ -24,3 +24,7 @@ gCDofTwoStrings.GCDofTwoStringsOptimised();
 
 Console.WriteLine("GCD of Two Strings - Brute Force");
 gCDofTwoStrings.GCDofTwoStringsBruteForce();
+
+Console.WriteLine("Kid with Candies");
+KidWithCandies kidWithCandies = new KidWithCandies();
+kidWithCandies.KidsWithCandies();
