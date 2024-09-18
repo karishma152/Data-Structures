@@ -37,7 +37,11 @@ Console.WriteLine("Data Structures Practice");
 //ReverseVowels reverseVowels = new ReverseVowels();
 //reverseVowels.ReverseVowelsInString();
 
-Console.WriteLine("Sliding Window");
-SlidingWindow slidingWindow = new SlidingWindow();
-slidingWindow.SlidingWindowQue();
+//Console.WriteLine("Sliding Window");
+//SlidingWindow slidingWindow = new SlidingWindow();
+//slidingWindow.SlidingWindowQue();
+
+Console.WriteLine("Sliding Window - Two pointer");
+SlidingWindowTwoPointer slidingWindowTwoPointer = new();
+slidingWindowTwoPointer.SlidingWindowTwoPointerQue();
 
