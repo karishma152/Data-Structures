@@ -61,9 +61,13 @@ Console.WriteLine("Data Structures Practice");
 //ProductOfArray productOfArray = new();
 //productOfArray.ProductOfArrayQueEfficient();
 
-Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");
-ProductOfArray productOfArray = new();
-productOfArray.PreFixSufixApproach();
+//Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");
+//ProductOfArray productOfArray = new();
+//productOfArray.PreFixSufixApproach();
+
+Console.WriteLine("Increasing Triplet Subsequence");
+IncreasingTripletSubsequence increasingTripletSubsequence = new();
+increasingTripletSubsequence.IncreasingTripletSubsequenceQue();
 
 
 

@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DSAPractice",
+    "\\DSAPractice\\DSAPractice",
+    "\\DSAPractice\\DSAPractice\\LeetCode",
+    "\\DSAPractice\\DSAPractice\\LeetCode\\ArraysString"
   ],
+  "SelectedNode": "\\DSAPractice\\DSAPractice\\LeetCode\\ArraysString\\ReverseVowels.cs",
   "PreviewInSolutionExplorer": false
 }
