@@ -49,9 +49,21 @@ Console.WriteLine("Data Structures Practice");
 //MaximumSubarraySize maximumSubarraySize = new();
 //maximumSubarraySize.MaximumSubarraySizeQue();
 
-Console.WriteLine("Reverse words in String");
-ReverseWordsInString reverseWords = new();
-reverseWords.ReverseWordsInStringQue();
+//Console.WriteLine("Reverse words in String");
+//ReverseWordsInString reverseWords = new();
+//reverseWords.ReverseWordsInStringQue();
+
+//Console.WriteLine("Product of Array - Except self - brute force");
+//ProductOfArray productOfArray = new();
+//productOfArray.ProductOfArrayQue();
+
+//Console.WriteLine("Product of Array - Except self - division approach");
+//ProductOfArray productOfArray = new();
+//productOfArray.ProductOfArrayQueEfficient();
+
+Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");
+ProductOfArray productOfArray = new();
+productOfArray.PreFixSufixApproach();
 
 
 
