@@ -8,7 +8,7 @@ namespace DSAPractice.LeetCode.SlidingWindow
 {
     public class LongestSubarray
     {
-        public int LongestSubarray(int[] nums)
+        public int LongestSubarrayque(int[] nums)
         {
             int minCount = 0, maxCount = 0, j = 0; ;
             for (int i = 0; i < nums.Length; i++)
