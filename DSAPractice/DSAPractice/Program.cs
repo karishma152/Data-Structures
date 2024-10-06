@@ -61,7 +61,7 @@ Console.WriteLine("Data Structures Practice");
 //ProductOfArray productOfArray = new();
 //productOfArray.ProductOfArrayQueEfficient();
 
-//Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");
+//Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");                      
 //ProductOfArray productOfArray = new();
 //productOfArray.PreFixSufixApproach();
 
