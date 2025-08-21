@@ -58,16 +58,18 @@ Console.WriteLine("Data Structures Practice");
 //productOfArray.ProductOfArrayQue();
 
 //Console.WriteLine("Product of Array - Except self - division approach");
-//ProductOfArray productOfArray = new();
 //productOfArray.ProductOfArrayQueEfficient();
 
-//Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");                      
-//ProductOfArray productOfArray = new();
+//Console.WriteLine("Product of Array - Except self - Prefix Suffix Approach - Optimum");
 //productOfArray.PreFixSufixApproach();
 
-Console.WriteLine("Increasing Triplet Subsequence");
-IncreasingTripletSubsequence increasingTripletSubsequence = new();
-increasingTripletSubsequence.IncreasingTripletSubsequenceQue();
+//Console.WriteLine("Increasing Triplet Subsequence");
+//IncreasingTripletSubsequence increasingTripletSubsequence = new();
+//increasingTripletSubsequence.IncreasingTripletSubsequenceQue();
+
+Console.WriteLine("Maximum frequency count");
+//TestFAI.LetterCount("Today, is the greatest day ever!"); 
+
 
 
 
