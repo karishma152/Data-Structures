@@ -76,9 +76,12 @@ Console.WriteLine("Data Structures Practice");
 //CanPlaceFlowers obj = new();
 //obj.CanPlaceFlowersOutput();
 
-LongestSubstringWithoutRepeatingCharacters obj = new();
-obj.LongestSubstringWithoutRepeatingCharacters_BruteForce("abba");
-obj.LongestSubstringWithoutRepeatingCharacters_Optimized("abcabccdef");
+//LongestSubstringWithoutRepeatingCharacters obj = new();
+//obj.LongestSubstringWithoutRepeatingCharacters_BruteForce("abba");
+//obj.LongestSubstringWithoutRepeatingCharacters_Optimized("abcabccdef");
+
+MergeIntervals obj = new();
+obj.MergeIntervals_Optimized([[1, 3], [2, 6], [8, 10], [15, 18]]);
 
 
 
