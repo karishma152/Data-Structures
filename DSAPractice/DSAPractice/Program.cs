@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DSAPractice;
 using DSAPractice.Arrays;
+using DSAPractice.InterviewPrep.BlackRock;
 using DSAPractice.LeetCode.ArraysString;
 
 Console.WriteLine("Data Structures Practice");
@@ -67,8 +68,18 @@ Console.WriteLine("Data Structures Practice");
 //IncreasingTripletSubsequence increasingTripletSubsequence = new();
 //increasingTripletSubsequence.IncreasingTripletSubsequenceQue();
 
-Console.WriteLine("Maximum frequency count");
+//Console.WriteLine("Maximum frequency count");
 //TestFAI.LetterCount("Today, is the greatest day ever!"); 
+//OddNumberOfOccurrences obj = new();
+//obj.OutputOnlyIntegersGreaterThanZero();
+
+//CanPlaceFlowers obj = new();
+//obj.CanPlaceFlowersOutput();
+
+LongestSubstringWithoutRepeatingCharacters obj = new();
+obj.LongestSubstringWithoutRepeatingCharacters_BruteForce("abba");
+obj.LongestSubstringWithoutRepeatingCharacters_Optimized("abcabccdef");
+
 
 
 
