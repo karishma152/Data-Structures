@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.ArraysString
+﻿namespace DSAPractice.LeetCode75.ArraysString
 {
     public class GCDofTwoStrings
     {
@@ -18,7 +18,7 @@
             {
                 int gcd = FindGCDofTwoNumber(string1.Length, string2.Length);
                 string result = string1.Substring(0, gcd);
-                Console.WriteLine(String.Format("GCD of two strings by Optimised Solution is : " + result));
+                Console.WriteLine(string.Format("GCD of two strings by Optimised Solution is : " + result));
             }
             else
                 Console.WriteLine("Strings don't have GCD");
@@ -38,7 +38,7 @@
             {
                 int baseLength = FindTheBruteGCD(baseString.Length, string1.Length, string2.Length);
                 string result = string1.Substring(0, baseLength);
-                Console.WriteLine(String.Format("GCD of two strings by Brute Force Solution is : " + result));
+                Console.WriteLine(string.Format("GCD of two strings by Brute Force Solution is : " + result));
             }
             else
                 Console.WriteLine("Strings don't have GCD");

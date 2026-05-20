@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.TwoPointers
+﻿namespace DSAPractice.LeetCode75.TwoPointers
 {
     public class MoveZeroes
     {

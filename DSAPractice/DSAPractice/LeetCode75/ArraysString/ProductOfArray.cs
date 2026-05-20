@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.ArraysString
+namespace DSAPractice.LeetCode75.ArraysString
 {
     public class ProductOfArray
     {
@@ -96,7 +96,7 @@ namespace DSAPractice.LeetCode.ArraysString
 
             }
 
-            for(int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 Console.WriteLine("product except self for " + nums[i] + " : " + suffix[i] * prefix[i]);
             }

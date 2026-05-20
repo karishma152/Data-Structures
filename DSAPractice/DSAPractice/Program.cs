@@ -80,8 +80,11 @@ Console.WriteLine("Data Structures Practice");
 //obj.LongestSubstringWithoutRepeatingCharacters_BruteForce("abba");
 //obj.LongestSubstringWithoutRepeatingCharacters_Optimized("abcabccdef");
 
-MergeIntervals obj = new();
-obj.MergeIntervals_Optimized([[1, 3], [2, 6], [8, 10], [15, 18]]);
+//MergeIntervals obj = new();
+//obj.MergeIntervals_Optimized([[1, 3], [2, 6], [8, 10], [15, 18]]);
+
+SubArraySum obj = new();
+obj.SubArraySum_Optimized([1, 3, 4, 5, 2, 1, 1], 3);
 
 
 

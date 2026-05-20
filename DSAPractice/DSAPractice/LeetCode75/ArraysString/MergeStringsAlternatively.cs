@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.ArraysString
+﻿namespace DSAPractice.LeetCode75.ArraysString
 {
     public class MergeStringsAlternatively
     {
@@ -12,12 +12,12 @@
             int word2Len = word2.Length;
             string result = string.Empty;
             int length = Math.Min(word1.Length, word2.Length);
-            for(int i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
             {
                 result += word1[i];
                 result += word2[i];
             }
-            if(word1Len > word2Len)
+            if (word1Len > word2Len)
             {
                 for (int i = word2Len; i < word1.Length; i++)
                 {
@@ -31,7 +31,7 @@
                     result += word2[i];
                 }
             }
-            
+
             Console.WriteLine(result);
             return result;
         }

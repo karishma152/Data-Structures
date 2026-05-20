@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace DSAPractice.LeetCode.ArraysString
+namespace DSAPractice.LeetCode75.ArraysString
 {
     public class StringCompression
     {

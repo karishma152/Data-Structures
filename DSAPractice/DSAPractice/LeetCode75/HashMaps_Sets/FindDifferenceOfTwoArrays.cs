@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.HashMaps_Sets
+namespace DSAPractice.LeetCode75.HashMaps_Sets
 {
     public class FindDifferenceOfTwoArrays
     {

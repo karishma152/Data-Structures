@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.ArraysString
+﻿namespace DSAPractice.LeetCode75.ArraysString
 {
     public class KidWithCandies
     {
@@ -6,7 +6,7 @@
 
         public void KidsWithCandies()
         {
-            int[] candies = { 2,8,7};
+            int[] candies = { 2, 8, 7 };
             int extraCandies = 1;
             bool[] result = new bool[candies.Length];
             int index = candies.Max();

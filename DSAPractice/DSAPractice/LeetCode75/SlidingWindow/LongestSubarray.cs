@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.SlidingWindow
+namespace DSAPractice.LeetCode75.SlidingWindow
 {
     public class LongestSubarray
     {

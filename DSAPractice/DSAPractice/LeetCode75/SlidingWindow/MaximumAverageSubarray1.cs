@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.SlidingWindow
+﻿namespace DSAPractice.LeetCode75.SlidingWindow
 {
     public class MaximumAverageSubarray1
     {

@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.ArraysString
+﻿namespace DSAPractice.LeetCode75.ArraysString
 {
     public class ReverseVowels
     {
@@ -20,7 +20,7 @@
 
                 }
             }
-            for(int i=0;i<s.Length;i++)
+            for (int i = 0; i < s.Length; i++)
             {
                 if (template.Contains(s[i]))
                 {
@@ -29,7 +29,7 @@
                 }
             }
             s = chars.ToString();
-           foreach(char ch in chars)
+            foreach (char ch in chars)
             {
                 Console.Write(ch);
             }

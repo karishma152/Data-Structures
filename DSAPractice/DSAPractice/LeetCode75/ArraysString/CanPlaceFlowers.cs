@@ -1,4 +1,4 @@
-﻿namespace DSAPractice.LeetCode.ArraysString
+﻿namespace DSAPractice.LeetCode75.ArraysString
 {
     public class CanPlaceFlowers
     {

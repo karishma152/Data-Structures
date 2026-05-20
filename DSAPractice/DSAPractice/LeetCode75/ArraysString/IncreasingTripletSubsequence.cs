@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.ArraysString
+namespace DSAPractice.LeetCode75.ArraysString
 {
     public class IncreasingTripletSubsequence
     {
         public void IncreasingTripletSubsequenceQue()
         {
-            int[] nums = { 4,3,2,1 };
-            int smallest = Int32.MaxValue;
-            int secondSmallest = Int32.MaxValue;
+            int[] nums = { 4, 3, 2, 1 };
+            int smallest = int.MaxValue;
+            int secondSmallest = int.MaxValue;
             foreach (int num in nums)
             {
                 if (num <= smallest)

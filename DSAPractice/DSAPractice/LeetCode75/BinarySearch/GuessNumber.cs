@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.BinarySearch
+namespace DSAPractice.LeetCode75.BinarySearch
 {
     public class GuessNumber
     {

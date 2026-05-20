@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPractice.LeetCode.ArraysString
+namespace DSAPractice.LeetCode75.ArraysString
 {
     public class ReverseWordsInString
     {
