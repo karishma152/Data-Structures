@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="SystemDesign\SplitWise\DTOs\" />
+    <Folder Include="SystemDesign\SplitWise\Controller\" />
+    <Folder Include="SystemDesign\SplitWise\Services\" />
+    <Folder Include="SystemDesign\SplitWise\Repository\" />
+  </ItemGroup>
+
 </Project>
